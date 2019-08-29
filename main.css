@@ -1,0 +1,722 @@
+body {
+    padding-top: 70px;
+    background: linear-gradient(#0f2027, #203a43, #214555);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Bree Serif', serif;
+    overflow: hidden;
+}
+
+/*---------------------------------Grid---------------------------------*/
+
+.container {
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(10, 50px);
+}
+
+.elemento {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.elemento:hover {
+    cursor: pointer;
+}
+
+/*---------------------------------Informacion---------------------------------*/
+.info {
+    width: 90vw;
+    display: flex;
+    color: rgb(255, 211, 153);
+    margin: auto;
+}
+
+a {
+    color: rgb(255, 211, 153);
+}
+
+.columna_1 {
+    width: 33%;
+    background-color-: pink;
+}
+
+.columna_2 {
+    width: 33%;
+    background-color-: aqua;
+}
+
+.columna_3 {
+    width: 33%;
+    background-color-: yellow;
+}
+
+/*------------Estilo_Distintos_tipos_de_elementos------------*/
+.p_metal {
+    border: solid 4px #99DDCC;
+    color: #99DDCC;
+}
+
+.alcalino {
+    border: solid 4px #FFCD33;
+    color: #FFCD33;
+}
+
+.alcalinoterreo {
+    border: solid 4px #FFFF44;
+    color: #FFFF44;
+}
+
+.unknown {
+    border: solid 4px #E3E3E3;
+    color: #E3E3E3;
+}
+
+.t_metal {
+    border: solid 4px rgb(241, 137, 224);
+    color: rgb(241, 137, 224);
+}
+
+.lantanido {
+    border: solid 4px #FFBB99;
+    color: #FFBB99;
+}
+
+.gas_noble {
+    border: solid 4px #78CBFF;
+    color: #78CBFF;
+}
+
+.actinido {
+    border: solid 4px #EEBBDD;
+    color: #EEBBDD;
+}
+
+.metaloide {
+    border: solid 4px #77DE88;
+    color: #77DE88;
+}
+
+.no_metal {
+    border: solid 4px #49FF49;
+    color: #49FF49;
+}
+
+/*---------------------------------Colocacion de los distintos elementos---------------------------------*/
+
+/*---------------Fila_1---------------*/
+.h {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.he {
+    grid-column: 18;
+    grid-row: 1;
+}
+
+/*---------------Fila_2---------------*/
+.li {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.be {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.b {
+    grid-column: 13;
+    grid-row: 2;
+}
+
+.c {
+    grid-column: 14;
+    grid-row: 2;
+}
+
+.n {
+    grid-column: 15;
+    grid-row: 2;
+}
+
+.o {
+    grid-column: 16;
+    grid-row: 2;
+}
+
+.f {
+    grid-column: 17;
+    grid-row: 2;
+}
+
+.ne {
+    grid-column: 18;
+    grid-row: 2;
+}
+
+/*---------------Fila_3---------------*/
+.na {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.mg {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.al {
+    grid-column: 13;
+    grid-row: 3;
+}
+
+.si {
+    grid-column: 14;
+    grid-row: 3;
+}
+
+.p {
+    grid-column: 15;
+    grid-row: 3;
+}
+
+.s {
+    grid-column: 16;
+    grid-row: 3;
+}
+
+.cl {
+    grid-column: 17;
+    grid-row: 3;
+}
+
+.ar {
+    grid-column: 18;
+    grid-row: 3;
+}
+
+
+/*---------------Fila_4---------------*/
+.k {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.ca {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.sc {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.ti {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.v {
+    grid-column: 5;
+    grid-row: 4;
+}
+
+.cr {
+    grid-column: 6;
+    grid-row: 4;
+}
+
+.mn {
+    grid-column: 7;
+    grid-row: 4;
+}
+
+.fe {
+    grid-column: 8;
+    grid-row: 4;
+}
+
+.co {
+    grid-column: 9;
+    grid-row: 4;
+}
+
+.ni {
+    grid-column: 10;
+    grid-row: 4;
+}
+
+.cu {
+    grid-column: 11;
+    grid-row: 4;
+}
+
+.zn {
+    grid-column: 12;
+    grid-row: 4;
+}
+
+.ga {
+    grid-column: 13;
+    grid-row: 4;
+}
+
+.ge {
+    grid-column: 14;
+    grid-row: 4;
+}
+
+.as {
+    grid-column: 15;
+    grid-row: 4;
+}
+
+.se {
+    grid-column: 16;
+    grid-row: 4;
+}
+
+.br {
+    grid-column: 17;
+    grid-row: 4;
+}
+
+.kr {
+    grid-column: 18;
+    grid-row: 4;
+}
+
+/*---------------Fila_5---------------*/
+
+.rb {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.sr {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.y {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.zr {
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.nb {
+    grid-column: 5;
+    grid-row: 5;
+}
+
+.mo {
+    grid-column: 6;
+    grid-row: 5;
+}
+
+.tc {
+    grid-column: 7;
+    grid-row: 5;
+}
+
+.ru {
+    grid-column: 8;
+    grid-row: 5;
+}
+
+.rh {
+    grid-column: 9;
+    grid-row: 5;
+}
+
+.pd {
+    grid-column: 10;
+    grid-row: 5;
+}
+
+.ag {
+    grid-column: 11;
+    grid-row: 5;
+}
+
+.cd {
+    grid-column: 12;
+    grid-row: 5;
+}
+
+.in {
+    grid-column: 13;
+    grid-row: 5;
+}
+
+.sn {
+    grid-column: 14;
+    grid-row: 5;
+}
+
+.sb {
+    grid-column: 15;
+    grid-row: 5;
+}
+
+.te {
+    grid-column: 16;
+    grid-row: 5;
+}
+
+.i {
+    grid-column: 17;
+    grid-row: 5;
+}
+
+.xe {
+    grid-column: 18;
+    grid-row: 5;
+}
+
+/*---------------Fila_6---------------*/
+.cs {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.ba {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.hf {
+    grid-column: 4;
+    grid-row: 6;
+}
+
+.ta {
+    grid-column: 5;
+    grid-row: 6;
+}
+
+.w {
+    grid-column: 6;
+    grid-row: 6;
+}
+
+.re {
+    grid-column: 7;
+    grid-row: 6;
+}
+
+.os {
+    grid-column: 8;
+    grid-row: 6;
+}
+
+.ir {
+    grid-column: 9;
+    grid-row: 6;
+}
+
+.pt {
+    grid-column: 10;
+    grid-row: 6;
+}
+
+.au {
+    grid-column: 11;
+    grid-row: 6;
+}
+
+.hg {
+    grid-column: 12;
+    grid-row: 6;
+}
+
+.tl {
+    grid-column: 13;
+    grid-row: 6;
+}
+
+.pb {
+    grid-column: 14;
+    grid-row: 6;
+}
+
+.bi {
+    grid-column: 15;
+    grid-row: 6;
+}
+
+.po {
+    grid-column: 16;
+    grid-row: 6;
+}
+
+.at {
+    grid-column: 17;
+    grid-row: 6;
+}
+
+.rn {
+    grid-column: 18;
+    grid-row: 6;
+}
+
+.espacio {
+    grid-column: 3;
+    grid-row: 6;
+    background-color: #FFBB99;
+}
+
+/*---------------Fila_7---------------*/
+.fr {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.ra {
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.rf {
+    grid-column: 4;
+    grid-row: 7;
+}
+
+.db {
+    grid-column: 5;
+    grid-row: 7;
+}
+
+.sg {
+    grid-column: 6;
+    grid-row: 7;
+}
+
+.bh {
+    grid-column: 7;
+    grid-row: 7;
+}
+
+.hs {
+    grid-column: 8;
+    grid-row: 7;
+}
+
+.mt {
+    grid-column: 9;
+    grid-row: 7;
+}
+
+.ds {
+    grid-column: 10;
+    grid-row: 7;
+}
+
+.rg {
+    grid-column: 11;
+    grid-row: 7;
+}
+
+.cn {
+    grid-column: 12;
+    grid-row: 7;
+}
+
+.nh {
+    grid-column: 13;
+    grid-row: 7;
+}
+
+.fl {
+    grid-column: 14;
+    grid-row: 7;
+}
+
+.mc {
+    grid-column: 15;
+    grid-row: 7;
+}
+
+.lv {
+    grid-column: 16;
+    grid-row: 7;
+}
+
+.ts {
+    grid-column: 17;
+    grid-row: 7;
+}
+
+.og {
+    grid-column: 18;
+    grid-row: 7;
+}
+
+.espacio1 {
+    grid-column: 3;
+    grid-row: 7;
+    background-color: #EEBBDD;
+}
+
+/*---------------Fila_9---------------*/
+.la {
+    grid-column: 4;
+    grid-row: 9;
+}
+
+.ce {
+    grid-column: 5;
+    grid-row: 9;
+}
+
+.pr {
+    grid-column: 6;
+    grid-row: 9;
+}
+
+.nd {
+    grid-column: 7;
+    grid-row: 9;
+}
+
+.pm {
+    grid-column: 8;
+    grid-row: 9;
+}
+
+.sm {
+    grid-column: 9;
+    grid-row: 9;
+}
+
+.eu {
+    grid-column: 10;
+    grid-row: 9;
+}
+
+.gd {
+    grid-column: 11;
+    grid-row: 9;
+}
+
+.tb {
+    grid-column: 12;
+    grid-row: 9;
+}
+
+.dy {
+    grid-column: 13;
+    grid-row: 9;
+}
+
+.ho {
+    grid-column: 14;
+    grid-row: 9;
+}
+
+.er {
+    grid-column: 15;
+    grid-row: 9;
+}
+
+.tm {
+    grid-column: 16;
+    grid-row: 9;
+}
+
+.yb {
+    grid-column: 17;
+    grid-row: 9;
+}
+
+.lu {
+    grid-column: 18;
+    grid-row: 9;
+}
+
+/*---------------Fila_10---------------*/
+.ac {
+    grid-column: 4;
+    grid-row: 10;
+}
+
+.th {
+    grid-column: 5;
+    grid-row: 10;
+}
+
+.pa {
+    grid-column: 6;
+    grid-row: 10;
+}
+
+.u {
+    grid-column: 7;
+    grid-row: 10;
+}
+
+.np {
+    grid-column: 8;
+    grid-row: 10;
+}
+
+.pu {
+    grid-column: 9;
+    grid-row: 10;
+}
+
+.am {
+    grid-column: 10;
+    grid-row: 10;
+}
+
+.cm {
+    grid-column: 11;
+    grid-row: 10;
+}
+
+.bk {
+    grid-column: 12;
+    grid-row: 10;
+}
+
+.cf {
+    grid-column: 13;
+    grid-row: 10;
+}
+
+.es {
+    grid-column: 14;
+    grid-row: 10;
+}
+
+.fm {
+    grid-column: 15;
+    grid-row: 10;
+}
+
+.md {
+    grid-column: 16;
+    grid-row: 10;
+}
+
+.no {
+    grid-column: 17;
+    grid-row: 10;
+}
+
+.lr {
+    grid-column: 18;
+    grid-row: 10;
+}
